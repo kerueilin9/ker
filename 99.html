@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>9*9</title>
+    </head>
+    <body>
+        <script>
+            document.write("<table border=0>");
+            for(j=1; j<10; j++){
+                document.write("<tr>");
+                for (i=2 ;i<10; i++) {
+                    var tmp = i*j;
+                    document.write("<td style=width:90px;>"
+                        + i + "*" + j + "=" +tmp +"</td>");
+                    }
+                document.write("</tr>");    
+            }
+            document.write("</table>");
+        </script>
+    </body>
+</html>

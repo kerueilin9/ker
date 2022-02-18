@@ -1,0 +1,48 @@
+body{
+    background: radial-gradient(ellipse,gray,burlywood);
+}
+a:link , a:visited{
+    color:crimson;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:hover , a:active{
+    color:rgb(94, 4, 22);
+    text-decoration:none; 
+}
+.p1{
+    font-size:20px;
+}
+.title1{
+    margin-top: -10px;
+    font-size:60px;
+    color:brown;
+    text-align: center;
+    font-style:italic;
+    text-decoration: underline;
+}
+.title2{
+    margin-top: -10px;
+    font-size:50px;
+    color:rgb(3, 56, 15);
+    text-align: center;
+    font-weight: bold;
+}
+ol,li{
+    font-size:30px;
+    
+}
+ol{
+    border: 10px dashed black;
+    border-width:medium;
+    border-radius: 20px;
+}
+#Div1{
+    width:45%;
+    height:400px;
+    padding:20px;
+    margin:10px;
+    border:darkblue solid 3px;
+    border-radius: 20px ;
+    float:left;
+}
