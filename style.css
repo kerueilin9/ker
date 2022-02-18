@@ -37,12 +37,32 @@ ol{
     border-width:medium;
     border-radius: 20px;
 }
+
+#group{
+    max-width: 1400px;
+    margin:auto;
+}
+
 #Div1{
-    width:45%;
-    height:400px;
     padding:20px;
+    width: 80%;
     margin:10px;
     border:darkblue solid 3px;
     border-radius: 20px ;
     float:left;
+}
+
+
+@media screen and (min-width:768px) {
+    .group{
+        display: flex;
+    }
+    .group #Div1{
+        width: 50%;
+        padding:20px;
+        margin:10px;
+        border:darkblue solid 3px;
+        border-radius: 20px ;
+        float:left;
+    }
 }
